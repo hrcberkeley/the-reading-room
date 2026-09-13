@@ -27,6 +27,9 @@
   --seal:#2C6888;
   --seal-rgb:44,104,136;
   --seal-soft:#DDEAF0;
+  --note:#3F7A5C;
+  --note-rgb:63,122,92;
+  --note-soft:#E0EDE5;
   --hairline:#CBD6DE;
   --focus:#0067A8;
   --hrc:#B0202E;
@@ -481,7 +484,7 @@ a{color:var(--seal)}
 .page.vision pre,.page.vision .page-content{color:var(--ink-soft)}
 mark{background:rgba(253,181,21,.55);color:var(--ink);border-radius:2px;padding:0 2px;
   box-shadow:0 0 0 1px rgba(var(--stamp-rgb),.45);font-weight:500}
-mark.note{background:var(--seal-soft);box-shadow:0 0 0 1px rgba(var(--seal-rgb),.45);cursor:pointer}
+mark.note{background:var(--note-soft);box-shadow:0 0 0 1px rgba(var(--note-rgb),.45);cursor:pointer}
 .empty{width:min(100% - 28px,560px);margin:clamp(30px,8vh,90px) auto;text-align:center;color:var(--ink-faint)}
 .empty h3{font-family:var(--disp);font-weight:600;font-size:24px;color:var(--ink-soft);margin:0 0 8px}
 .empty p{margin:0;font-size:14px;line-height:1.6}
@@ -601,6 +604,9 @@ mark.note{background:var(--seal-soft);box-shadow:0 0 0 1px rgba(var(--seal-rgb),
 .note-quote{margin:9px 0 0;padding:7px 9px;background:var(--desk-deep);border-radius:3px;
   font-style:italic;font-size:12.5px;color:var(--ink-soft);line-height:1.45}
 .note-quote[hidden]{display:none}
+/* The data-loss warning, marked serious without the left-border-callout
+   treatment used nowhere else in this app — a plain tinted box instead. */
+#comment-warning,#import-warning{padding:8px 9px;border-radius:3px;background:rgba(var(--hrc-rgb),.1)}
 .notes-dialog{max-width:min(560px,calc(100vw - 24px));text-align:left}
 .notes-list{max-height:min(50vh,420px);overflow:auto;margin:6px 0 2px}
 .note-row{padding:10px 2px;border-top:1px solid var(--hairline)}
@@ -612,7 +618,7 @@ mark.note{background:var(--seal-soft);box-shadow:0 0 0 1px rgba(var(--seal-rgb),
 .note-text{margin:0 0 7px;font-size:13.5px;line-height:1.5;white-space:pre-wrap}
 .note-actions{display:flex;gap:14px}
 .note-actions button{font-family:var(--mono);font-size:10px;letter-spacing:.06em;
-  text-transform:uppercase;color:var(--seal)}
+  text-transform:uppercase;color:var(--note)}
 .note-actions button:hover{color:var(--ink)}
 .note-actions button.danger:hover{color:var(--hrc)}
 
@@ -879,8 +885,7 @@ mark.note{background:var(--seal-soft);box-shadow:0 0 0 1px rgba(var(--seal-rgb),
 </dialog>
 
 <!-- Selecting text and choosing "Add a note" from the right-click menu opens
-     this to write it; clicking an already-noted passage, or Edit in the notes
-     list, reopens it on that note. -->
+     this to write it; Edit here or in the notes list reopens it on that note. -->
 <dialog class="alert-dialog" id="comment-dialog" aria-labelledby="comment-dialog-title">
   <h3 id="comment-dialog-title">Add a note</h3>
   <p id="comment-warning">Notes are saved only in this browser, on this device — nowhere else. Clearing
@@ -893,6 +898,18 @@ mark.note{background:var(--seal-soft);box-shadow:0 0 0 1px rgba(var(--seal-rgb),
     <button type="button" class="ghost danger" id="comment-delete" hidden>Delete</button>
     <button type="button" class="ghost" id="comment-cancel">Cancel</button>
     <button type="button" id="comment-save" autofocus>Save</button>
+  </div>
+</dialog>
+
+<!-- Clicking a noted passage reads it, rather than dropping the reader straight
+     into an editable textarea; Edit here hands off to comment-dialog above. -->
+<dialog class="alert-dialog" id="note-view-dialog" aria-labelledby="note-view-title">
+  <h3 id="note-view-title">Your note</h3>
+  <blockquote class="note-quote" id="note-view-anchor" hidden></blockquote>
+  <p class="note-text" id="note-view-text"></p>
+  <div class="alert-foot">
+    <button type="button" class="ghost" id="note-view-close" autofocus>Close</button>
+    <button type="button" id="note-view-edit">Edit</button>
   </div>
 </dialog>
 
@@ -1408,7 +1425,7 @@ function jumpToPage(n){
 $('#sheet-scroll').addEventListener('click', e => {
   if (e.target.closest('#fp-tour')) return startTour();
   const noteMark = e.target.closest('mark.note');
-  if (noteMark) return openNoteDialog(byId(S.docId), {id: noteMark.dataset.noteId});
+  if (noteMark) return openNoteView(byId(S.docId), noteMark.dataset.noteId);
   // A stack in "Just in" opens exactly as its row on the shelf would.
   const pick = e.target.closest('[data-open]');
   if (!pick) return;
@@ -2071,10 +2088,29 @@ function deleteNote(docId, id){
   saveNoteStore(store);
 }
 
+/* Clicking a noted passage reads it; writing to it is a deliberate second step. */
+let viewingNote = null;
+function openNoteView(doc, id){
+  const n = notesFor(doc.id).find(x => x.id === id);
+  if (!doc || !n) return;
+  viewingNote = {docId: doc.id, id};
+  $('#note-view-anchor').hidden = !n.anchor;
+  $('#note-view-anchor').textContent = n.anchor
+    ? `“${n.anchor}”${n.page ? ' — page ' + n.page : ''}` : '';
+  $('#note-view-text').textContent = n.text;
+  $('#note-view-dialog').showModal();
+}
+$('#note-view-close').addEventListener('click', () => { viewingNote = null; $('#note-view-dialog').close(); });
+$('#note-view-edit').addEventListener('click', () => {
+  const v = viewingNote; viewingNote = null;
+  $('#note-view-dialog').close();
+  if (v) openNoteDialog(byId(v.docId), {id: v.id});
+});
+
 /* One dialog serves both "new" (from the right-click menu, {page, anchor}) and
-   "edit" (from a mark or the notes list, {id}). returnToList reopens the list
-   after Save/Delete, for the edit path only — a freshly written note has no
-   list open behind it to return to. */
+   "edit" (from the view dialog's Edit button or the notes list, {id}).
+   returnToList reopens the list after Save/Delete, for the edit path only —
+   a freshly written note has no list open behind it to return to. */
 let noteDraft = null;
 function openNoteDialog(doc, {id, page, anchor, returnToList} = {}){
   const existing = id ? notesFor(doc.id).find(n => n.id === id) : null;
@@ -2231,7 +2267,15 @@ async function importSharedNotes(doc, encoded){
 }
 $('#import-add').addEventListener('click', () => {
   if (pendingImport){
-    pendingImport.list.forEach(n => addNote(pendingImport.docId, n));
+    // A link opened twice, or two people sharing overlapping notes, shouldn't
+    // pile up duplicates: same passage, same wording is the same note.
+    const seen = new Set(notesFor(pendingImport.docId).map(n => n.anchor + '' + n.text));
+    pendingImport.list.forEach(n => {
+      const key = n.anchor + '' + n.text;
+      if (seen.has(key)) return;
+      seen.add(key);
+      addNote(pendingImport.docId, n);
+    });
     if (S.docId === pendingImport.docId) renderRead();
   }
   pendingImport = null;
