@@ -61,7 +61,7 @@ a{color:var(--seal)}
   padding:0 clamp(12px,2vw,24px);background:var(--desk);border-bottom:1px solid var(--desk-line);
   padding-left:max(clamp(12px,2vw,24px),env(safe-area-inset-left));
   padding-right:max(clamp(12px,2vw,24px),env(safe-area-inset-right))}
-.roombar img{display:block;height:26px;width:auto;flex:none}
+.roombar img{display:block;height:16px;width:auto;flex:none}
 .roombar .rb-title{font-family:var(--disp);font-weight:600;font-size:17.5px;letter-spacing:-.01em;
   white-space:nowrap;border-left:1px solid var(--hairline);padding-left:clamp(10px,1.4vw,16px);
   color:var(--ink)}
@@ -324,7 +324,7 @@ a{color:var(--seal)}
 .welcome.leaving{opacity:0}
 .wl-inner{position:relative;z-index:2;max-width:min(100%,600px);margin-inline:auto;
   text-align:center;transition:opacity .3s ease,transform .3s ease}
-.wl-inner>img{display:block;height:72px;width:auto;margin:0 auto 26px}
+.wl-inner>img{display:block;height:32px;width:auto;margin:0 auto 16px}
 .wl-inner h1{font-family:var(--disp);font-weight:600;font-size:clamp(38px,6vw,62px);
   letter-spacing:-.025em;line-height:1;margin:0}
 .wl-sub{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;
@@ -409,7 +409,7 @@ a{color:var(--seal)}
    the screen, so it reads from the top and the picture gives way first. */
 @media (max-height:720px){
   .welcome{align-items:flex-start;padding:20px}
-  .wl-inner>img{height:48px;margin-bottom:14px}
+  .wl-inner>img{height:22px;margin-bottom:10px}
   .wl-inner h1{font-size:clamp(30px,5vw,44px)}
   .wl-lede{margin-top:14px}
   .wl-cover{margin-top:14px}
@@ -431,7 +431,7 @@ a{color:var(--seal)}
   .wl-cover{margin-top:18px}
   .wl-cover img{width:min(400px,60vw)}
   .wl-lede{margin-top:16px}
-  .wl-inner>img{height:56px;margin-bottom:18px}
+  .wl-inner>img{height:26px;margin-bottom:12px}
   .wl-inner h1{font-size:clamp(34px,11vw,48px)}
 }
 
