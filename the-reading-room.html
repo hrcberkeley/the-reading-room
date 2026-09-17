@@ -71,6 +71,8 @@ a{color:var(--seal)}
   width:15px;height:15px;border:1.5px solid var(--ink-faint);border-radius:50%;background:none;
   color:var(--ink-faint);font-family:var(--mono);font-size:9px;font-weight:600;line-height:1;
   transition:border-color .15s,color .15s}
+.about-cover{display:block;max-width:220px;margin:0 0 12px}
+.about-cover img{display:block;width:100%;height:auto}
 .roombar .rb-about-btn:hover{border-color:var(--seal);color:var(--seal)}
 .roombar .rb-total{font-family:var(--mono);font-size:11px;color:var(--ink-faint);white-space:nowrap;
   overflow:hidden;text-overflow:ellipsis;flex:1;min-width:0}
@@ -873,6 +875,8 @@ mark.note{background:var(--note-soft);box-shadow:0 0 0 1px rgba(var(--note-rgb),
 
 <dialog class="alert-dialog about-dialog" id="about-dialog" aria-labelledby="about-dialog-title">
   <h3 id="about-dialog-title">About the Reading Room</h3>
+  <a class="about-cover" href="https://forbiddenstories.org/" target="_blank" rel="noopener">
+    <img src="fs_cover.jpg" alt="Forbidden Stories" width="1200" height="675"></a>
   <p>The Reading Room was created by the Investigations Lab, Human Rights Center, Berkeley
     School of Law, using publicly available material. The original texts were extracted from
     PDFs with Marker, an open-source document-conversion tool, then checked page by page
