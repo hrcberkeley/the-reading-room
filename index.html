@@ -260,8 +260,11 @@ a{color:var(--seal)}
    sections of one page rather than a heading and a footnote. */
 .fp-new h3{font-family:var(--disp);font-weight:600;font-size:clamp(30px,3.6vw,42px);
   line-height:1.03;letter-spacing:-.02em;color:var(--ink);margin:0 0 20px}
-.fp-new-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:clamp(16px,2.4vw,26px)}
+/* Two sheets to a row, each the same size however many there are, and centred
+   so a lone arrival sits in the middle rather than in the left column. */
+.fp-new-grid{--gap:clamp(16px,2.4vw,26px);display:flex;flex-wrap:wrap;
+  justify-content:center;gap:var(--gap)}
+.fp-new-grid>.paper-stack{width:calc((100% - var(--gap))/2)}
 /* A sheet, not a card: the face carries A4's proportions and the two leaves
    under it inherit that box, so a stack is the shape of the paper it stands
    for. Text sits at the top and the rest of the sheet stays blank, which is
@@ -297,7 +300,7 @@ a{color:var(--seal)}
   line-height:1.2;color:var(--ink);margin-bottom:9px;text-wrap:balance}
 .ps-meta{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.07em;
   text-transform:uppercase;color:var(--ink-faint);line-height:1.55}
-@media (max-width:560px){.fp-new-grid{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:560px){.fp-new-grid>.paper-stack{width:100%}}
 
 /* ---------------- right-click menu ---------------- */
 .ctx{position:fixed;z-index:60;min-width:230px;padding:4px;
