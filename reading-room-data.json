@@ -1,21 +1,20 @@
 {
   "meta": {
-    "docs": 65,
-    "countries": 57,
-    "words": 155991,
-    "total": 65,
+    "docs": 66,
+    "countries": 58,
+    "words": 158413,
+    "total": 66,
     "sealed": [
       "Bahamas",
-      "Ghana",
       "Jamaica",
       "Mexico",
       "Moldova",
       "Saint Lucia",
       "Uzbekistan"
     ],
-    "generatedAt": "2026-09-10T16:53:23.785658+00:00",
+    "generatedAt": "2026-11-17T19:15:31.482149+00:00",
     "layoutFormat": "marker-2-json",
-    "pages": 248
+    "pages": 283
   },
   "docs": [
     {
@@ -27,13 +26,8 @@
         "Source document"
       ],
       "collection": "agreement",
-      "region": "Central and South America",
-      "clauses": [
-        {
-          "cat": "Protections",
-          "term": "Explicitly references \"nonrefoulement\""
-        }
-      ],
+      "region": null,
+      "clauses": [],
       "funding": null,
       "transferees": null,
       "sourcePdf": "2026 Panama_TCN-Transfer-Arrangement_2026-04-10.pdf",
@@ -191,7 +185,7 @@
         },
         {
           "cat": "Length",
-          "term": "2 pages or less"
+          "term": "7-8 pages"
         },
         {
           "cat": "International Law",
@@ -212,10 +206,6 @@
         {
           "cat": "Protections",
           "term": "Explicitly references \"nonrefoulement\""
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
         },
         {
           "cat": "Protections",
@@ -299,7 +289,7 @@
         },
         {
           "cat": "Length",
-          "term": "6-7 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -324,10 +314,6 @@
         {
           "cat": "Protections",
           "term": "General assurance to comply with int. law"
-        },
-        {
-          "cat": "Protections",
-          "term": "Explicitly references \"nonrefoulement\""
         },
         {
           "cat": "Protections",
@@ -655,13 +641,8 @@
         "Source document"
       ],
       "collection": "agreement",
-      "region": "Africa",
-      "clauses": [
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
-        }
-      ],
+      "region": null,
+      "clauses": [],
       "funding": null,
       "transferees": null,
       "sourcePdf": "CAR_2026.pdf",
@@ -783,7 +764,7 @@
         },
         {
           "cat": "Length",
-          "term": "4-5 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "International Law",
@@ -895,7 +876,7 @@
         },
         {
           "cat": "Length",
-          "term": "2-3 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -920,10 +901,6 @@
         {
           "cat": "Protections",
           "term": "Explicitly references \"nonrefoulement\""
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
         },
         {
           "cat": "Protections",
@@ -1060,7 +1037,7 @@
         },
         {
           "cat": "Length",
-          "term": "4-5 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -1081,10 +1058,6 @@
         {
           "cat": "Protections",
           "term": "General assurance to comply with int. law"
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
         },
         {
           "cat": "Funding",
@@ -1200,13 +1173,8 @@
         "Source document"
       ],
       "collection": "agreement",
-      "region": "Carribbean",
-      "clauses": [
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
-        }
-      ],
+      "region": null,
+      "clauses": [],
       "funding": null,
       "transferees": null,
       "sourcePdf": "Dominican Republic - 5.12.2026.pdf",
@@ -1671,13 +1639,8 @@
         "Source document"
       ],
       "collection": "agreement",
-      "region": "Central and South America",
-      "clauses": [
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
-        }
-      ],
+      "region": null,
+      "clauses": [],
       "funding": null,
       "transferees": null,
       "sourcePdf": "Ecuador_ 2026.pdf",
@@ -1806,7 +1769,7 @@
         },
         {
           "cat": "Length",
-          "term": "4-5 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -1974,7 +1937,7 @@
         },
         {
           "cat": "Length",
-          "term": "3-4 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "International Law",
@@ -2071,7 +2034,7 @@
         },
         {
           "cat": "Length",
-          "term": "3-4 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "International Law",
@@ -2167,7 +2130,7 @@
         },
         {
           "cat": "Length",
-          "term": "3-4 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "International Law",
@@ -2279,53 +2242,8 @@
         "Source document"
       ],
       "collection": "agreement",
-      "region": "Africa",
-      "clauses": [
-        {
-          "cat": "Formatting",
-          "term": "Diplomatic Note/ Note Verbal"
-        },
-        {
-          "cat": "Type",
-          "term": "Removal Agreement"
-        },
-        {
-          "cat": "Length",
-          "term": "2 pages or less"
-        },
-        {
-          "cat": "International Law",
-          "term": "1951 Refugee Convention"
-        },
-        {
-          "cat": "International Law",
-          "term": "1967 Protocol"
-        },
-        {
-          "cat": "International Law",
-          "term": "CAT"
-        },
-        {
-          "cat": "Protections",
-          "term": "General assurance to comply with int. law"
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
-        },
-        {
-          "cat": "Restrictions on Transferees",
-          "term": "Receiving state may accept or reject proposal"
-        },
-        {
-          "cat": "Restrictions on Transferees",
-          "term": "Geography and nationality restrictions (including language (Kosovo))"
-        },
-        {
-          "cat": "Modification & Termination",
-          "term": "Termination"
-        }
-      ],
+      "region": null,
+      "clauses": [],
       "funding": null,
       "transferees": null,
       "sourcePdf": "Ghana_2025_[64047].pdf",
@@ -4196,16 +4114,7 @@
       ],
       "collection": "agreement",
       "region": "Carribbean",
-      "clauses": [
-        {
-          "cat": "Protections",
-          "term": "Explicitly references \"nonrefoulement\""
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
-        }
-      ],
+      "clauses": [],
       "funding": null,
       "transferees": null,
       "sourcePdf": "Grenada_2026_[2026-0014QN].pdf",
@@ -4259,7 +4168,7 @@
         },
         {
           "cat": "Length",
-          "term": "2-3 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Protections",
@@ -4338,7 +4247,7 @@
         },
         {
           "cat": "Length",
-          "term": "2-3 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Protections",
@@ -4426,6 +4335,113 @@
       "layoutData": "Guatemala_2025/Guatemala_2025.layout.json"
     },
     {
+      "id": "Guinea_Bissau_2026_64381",
+      "country": "Guinea Bissau 2026",
+      "shortCountry": "Guinea Bissau 2026",
+      "year": null,
+      "docTypes": [
+        "Source document"
+      ],
+      "collection": "agreement",
+      "region": null,
+      "clauses": [],
+      "funding": null,
+      "transferees": null,
+      "sourcePdf": "Guinea-Bissau_2026_[64381].pdf",
+      "pages": [
+        {
+          "n": 1,
+          "kind": "digital",
+          "lang": "en",
+          "conf": null,
+          "text": "No. 2026-029\nThe Embassy of the United States of America presents its compliments to  the Ministry of Foreign Affairs, International Cooperation, and Communities of the  Republic of Guinea-Bissau and has the honor to propose the following  understanding between the Government of the United States of America and the  Government of the Republic of Guinea-Bissau (hereinafter referred to individually  as a \"Participant\" and collectively as \"Participants\").\n The Participants intend to arrange the transfer from the United States to the  Republic of Guinea-Bissau of certain third-country nationals present in the  United States. This may include third-country nationals who raise national  security or public safety concerns.\n The Government of the United States of America may in its complete  discretion propose to the Government of the Republic of Guinea-Bissau the  transfer of such third-country nationals, and the Government of the Republic  of Guinea-Bissau may in its complete discretion consider accepting such a  proposal in whole or in part.\n The Government of the Republic of Guinea-Bissau assures the Government  of the United States of America that it intends to treat any third-country  nationals transferred from the United States to the Republic of Guinea-Bissau in a manner that is in accordance with its obligations under the  Convention Relating to the Status of Refugees, done at Geneva on July 28,  1951; the Protocol Relating to the Status of Refugees, done at New York on  January 31, 1967; the Convention against Torture and Other Cruel, Inhuman  or Degrading Treatment or Punishment, adopted in New York on December  I 0, 1984; the Organization of African C'nity Convention Governing the  Specific Aspects of Refugee Problems in Africa, done at Addis Ababa on",
+          "html": "<p block-type=\"Text\" data-block-id=\"/page/0/Text/0\">\n    No. 2026-029\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/0/Text/1\">\n    The Embassy of the United States of America presents its compliments to  the Ministry of Foreign Affairs, International Cooperation, and Communities of the  Republic of Guinea-Bissau and has the honor to propose the following  understanding between the Government of the United States of America and the  Government of the Republic of Guinea-Bissau (hereinafter referred to individually  as a \"Participant\" and collectively as \"Participants\").\n   </p>\n<p block-type=\"ListGroup\" data-block-id=\"/page/0/ListGroup/2\">\n<ul>\n<li block-type=\"ListItem\" data-block-id=\"/page/0/ListItem/79\">\n      The Participants intend to arrange the transfer from the United States to the  Republic of Guinea-Bissau of certain third-country nationals present in the  United States. This may include third-country nationals who raise national  security or public safety concerns.\n     </li>\n<li block-type=\"ListItem\" data-block-id=\"/page/0/ListItem/80\">\n      The Government of the United States of America may in its complete  discretion propose to the Government of the Republic of Guinea-Bissau the  transfer of such third-country nationals, and the Government of the Republic  of Guinea-Bissau may in its complete discretion consider accepting such a  proposal in whole or in part.\n     </li>\n<li block-type=\"ListItem\" data-block-id=\"/page/0/ListItem/81\">\n      The Government of the Republic of Guinea-Bissau assures the Government  of the United States of America that it intends to treat any third-country  nationals transferred from the United States to the Republic of Guinea-Bissau in a manner that is in accordance with its obligations under the  Convention Relating to the Status of Refugees, done at Geneva on July 28,  1951; the Protocol Relating to the Status of Refugees, done at New York on  January 31, 1967; the Convention against Torture and Other Cruel, Inhuman  or Degrading Treatment or Punishment, adopted in New York on December  I 0, 1984; the Organization of African C'nity Convention Governing the  Specific Aspects of Refugee Problems in Africa, done at Addis Ababa on\n     </li>\n</ul>\n</p>"
+        },
+        {
+          "n": 2,
+          "kind": "digital",
+          "lang": "en",
+          "conf": null,
+          "text": "September 10, 1969; any other international legal obligations; and its  national constitution, laws, regulations, and immigration and visa policies.  Consistent with this intention, the Government of the Republic of Guinea-Bissau assures the Government of the United States of America that it would  treat any third-country nationals transferred from the United States to the  Republic of Guinea-Bissau in a manner that is in accordance with its  international legal obligations and that the third-country nationals removed  to the Republic of Guinea-Bissau would not be subjected to persecution on  account of race, religion, nationality, membership in a particular social  group, or political opinion, or torture in the Republic of Guinea-Bissau or in  any country to which the Government of the Republic of Guinea-Bissau may  further transfer them.\n The Participants intend to consult to resolve any questions about  interpretation or implementation of this understanding.\n Either Participant may discontinue its participation in this understanding at  any time but, in such case, intends to provide written notice to the other  Participant through diplomatic channels.\n Nothing in this understanding is intended to create any obligation upon the  Participants to disburse or obligate funds. All actions taken under this  understanding are subject to the availability of funds and the applicable laws  and regulations of both Participants.\nIf this proposal is acceptable to the Government of the Republic of Guinea-Bissau, the Government of the United States of America proposes that this note,  together with the affirmative reply from the Government of the Republic of  Guinea-Bissau, would constitute an understanding between the two governments  that would become effective upon the date of the Government of the Republic of  Guinea-Bissau's reply note.",
+          "html": "<p block-type=\"Text\" data-block-id=\"/page/1/Text/0\">\n    September 10, 1969; any other international legal obligations; and its  national constitution, laws, regulations, and immigration and visa policies.  Consistent with this intention, the Government of the Republic of Guinea-Bissau assures the Government of the United States of America that it would  treat any third-country nationals transferred from the United States to the  Republic of Guinea-Bissau in a manner that is in accordance with its  international legal obligations and that the third-country nationals removed  to the Republic of Guinea-Bissau would not be subjected to persecution on  account of race, religion, nationality, membership in a particular social  group, or political opinion, or torture in the Republic of Guinea-Bissau or in  any country to which the Government of the Republic of Guinea-Bissau may  further transfer them.\n   </p>\n<p block-type=\"ListGroup\" data-block-id=\"/page/1/ListGroup/1\">\n<ul>\n<li block-type=\"ListItem\" data-block-id=\"/page/1/ListItem/81\">\n      The Participants intend to consult to resolve any questions about  interpretation or implementation of this understanding.\n     </li>\n<li block-type=\"ListItem\" data-block-id=\"/page/1/ListItem/82\">\n      Either Participant may discontinue its participation in this understanding at  any time but, in such case, intends to provide written notice to the other  Participant through diplomatic channels.\n     </li>\n<li block-type=\"ListItem\" data-block-id=\"/page/1/ListItem/83\">\n      Nothing in this understanding is intended to create any obligation upon the  Participants to disburse or obligate funds. All actions taken under this  understanding are subject to the availability of funds and the applicable laws  and regulations of both Participants.\n     </li>\n</ul>\n</p>\n<p block-type=\"Text\" data-block-id=\"/page/1/Text/2\">\n    If this proposal is acceptable to the Government of the Republic of Guinea-Bissau, the Government of the United States of America proposes that this note,  together with the affirmative reply from the Government of the Republic of  Guinea-Bissau, would constitute an understanding between the two governments  that would become effective upon the date of the Government of the Republic of  Guinea-Bissau's reply note.\n   </p>"
+        },
+        {
+          "n": 3,
+          "kind": "digital",
+          "lang": "en",
+          "conf": null,
+          "text": "The Embassy's point of contact for this request is Mr. Nathan Kato-Wallace,  Political Attache, who can be reached at Kato-WallaceND@state.gov or +221 33  879 4752.\nThe Embassy of the United States of America avails itself of this opportunity  to renew to the Ministry of Foreign Affairs, International Cooperation, and  Communities of the Republic of Guinea-Bissau the assurances of its highest  consideration.\nEmbassy of the United States of America,\nDakar, June 24, 2026.",
+          "html": "<p block-type=\"Text\" data-block-id=\"/page/2/Text/0\">\n    The Embassy's point of contact for this request is Mr. Nathan Kato-Wallace,  Political Attache, who can be reached at Kato-WallaceND@state.gov or +221 33  879 4752.\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/2/Text/1\">\n    The Embassy of the United States of America avails itself of this opportunity  to renew to the Ministry of Foreign Affairs, International Cooperation, and  Communities of the Republic of Guinea-Bissau the assurances of its highest  consideration.\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/2/Text/2\">\n    Embassy of the United States of America,\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/2/Text/3\">\n    Dakar, June 24, 2026.\n   </p>\n<p data-block-id=\"/page/2/Picture/4\">\n<img loading=\"lazy\" src=\"reading-room-assets/Guinea_Bissau_2026_64381/_page_2_Picture_4.jpeg\"/>\n</p>"
+        },
+        {
+          "n": 4,
+          "kind": "digital",
+          "lang": "en",
+          "conf": null,
+          "text": "GOVERNO DA\n\nGUINE-BISSAU\nMINISTERIO DOS NEGOCIOS ESTRANGEIROS,\n\nCOOPERA<;AO INTERNACIONAL E DAS COMUNIDADES\nReF N° 132\n\n2>\n\n4\n\n/MNECIC-GM/bn/2026 Bissau, 09 July 2026\n0 Ministerio dos Neg6cios Estrangeiros, Cooperac;ao Internacional e das  Comunidades da Republica da Guine-Bissau apresenta os seus melhores  cumprimentos ao Gabinete de Ligac;ao dos Estados Unidos em Bissau e, tern a honra  de acusar a recec;ao da Nota da Embaixada N°. 2026-029, datada de 24 de junho de  2026, cujo teor e o seguinte:\nNo. 2026-029\nA Embaixada dos Estados Unidos apresenta os seus cumprimentos ao Ministerio dos  Neg6cios Estrangeiros, da Cooperac;ao Internacional e das Comunidades da  Republica da Guine-Bissau e tern a honra de propor o seguinte entendimento entre  o Governo dos Estados Unidos da America e o Govemo da Republica da Guine-Bissau (doravante referido individualmente como \"Participante\" e coletivamente  como \"Participantes\").\n Os Participantes visam coordenar a transferencia dos Estados Unidos para o  Governo da Republica da Guine-Bissau de determinados nacionais de paises  terceiros presentes nos Estados Unidos. Isto podera abranger nacionais de  paises terceiros que suscitem preocupac;oes relacionadas com a segw-anc;a  nacional ou a seguranc;a p(1blica.\n 0 Governo dos Estados Unidos da America podera propor, a seu exclusivo  criterio, ao Governo da Republica da Guine-Bissau a transferencia dos  referidos nacionais de paises terceiros e o Governo da Republica da Guine-Bissau podera considerar tal proposta, a seu exclusivo criteria, de forma total  ou parcial.\n 0 Governo da Republica da Guine-Bissau garante ao Governo dos Estados  Unidos da America que pretende tratar tais nacionais de paises terceiros  transferidos dos Estados Unidos para a Republica da Guine-Bissau de forma\nAvenida Amil car Cabral, Caixa Postal n.\n0\n190-Bissau-Rep. Guine-Bissau\n\nCorreio electronico: mnecicgbissau@gmail.com",
+          "html": "<p data-block-id=\"/page/3/PageHeader/1\">\n<b>\n     GOVERNO DA  GUINE-BISSAU\n    </b>\n</p>\n<p data-block-id=\"/page/3/PageHeader/2\">\n<b>\n     MINISTERIO DOS NEGOCIOS ESTRANGEIROS,  COOPERA&lt;;AO INTERNACIONAL E DAS COMUNIDADES\n    </b>\n</p>\n<p data-block-id=\"/page/3/Picture/0\">\n<img loading=\"lazy\" src=\"reading-room-assets/Guinea_Bissau_2026_64381/_page_3_Picture_0.jpeg\"/>\n</p>\n<p block-type=\"Text\" data-block-id=\"/page/3/Text/3\">\n<b>\n     ReF N&deg; 132 2&gt; 4 /MNECIC-GM/bn/2026 Bissau, 09 July 2026\n    </b>\n</p>\n<p block-type=\"Text\" data-block-id=\"/page/3/Text/4\">\n</p>\n<p block-type=\"Text\" data-block-id=\"/page/3/Text/5\">\n    0 Ministerio dos Neg6cios Estrangeiros, Cooperac;ao Internacional e das  Comunidades da Republica da Guine-Bissau apresenta os seus melhores  cumprimentos ao Gabinete de Ligac;ao dos Estados Unidos em Bissau e, tern a honra  de acusar a recec;ao da Nota da Embaixada N&deg;. 2026-029, datada de 24 de junho de  2026, cujo teor e o seguinte:\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/3/Text/6\">\n<b>\n     No. 2026-029\n    </b>\n</p>\n<p block-type=\"Text\" data-block-id=\"/page/3/Text/7\">\n    A Embaixada dos Estados Unidos apresenta os seus cumprimentos ao Ministerio dos  Neg6cios Estrangeiros, da Cooperac;ao Internacional e das Comunidades da  Republica da Guine-Bissau e tern a honra de propor o seguinte entendimento entre  o Governo dos Estados Unidos da America e o Govemo da Republica da Guine-Bissau (doravante referido individualmente como \"Participante\" e coletivamente  como \"Participantes\").\n   </p>\n<p block-type=\"ListGroup\" data-block-id=\"/page/3/ListGroup/8\">\n<ul>\n<li block-type=\"ListItem\" data-block-id=\"/page/3/ListItem/112\">\n      Os Participantes visam coordenar a transferencia dos Estados Unidos para o  Governo da Republica da Guine-Bissau de determinados nacionais de paises  terceiros presentes nos Estados Unidos. Isto podera abranger nacionais de  paises terceiros que suscitem preocupac;oes relacionadas com a segw-anc;a  nacional ou a seguranc;a p(1blica.\n     </li>\n<li block-type=\"ListItem\" data-block-id=\"/page/3/ListItem/113\">\n      0 Governo dos Estados Unidos da America podera propor, a seu exclusivo  criterio, ao Governo da Republica da Guine-Bissau a transferencia dos  referidos nacionais de paises terceiros e o Governo da Republica da Guine-Bissau podera considerar tal proposta, a seu exclusivo criteria, de forma total  ou parcial.\n     </li>\n<li block-type=\"ListItem\" data-block-id=\"/page/3/ListItem/114\">\n      0 Governo da Republica da Guine-Bissau garante ao Governo dos Estados  Unidos da America que pretende tratar tais nacionais de paises terceiros  transferidos dos Estados Unidos para a Republica da Guine-Bissau de forma\n     </li>\n</ul>\n</p>\n<p data-block-id=\"/page/3/PageFooter/9\">\n<b>\n     Avenida Amil car Cabral, Caixa Postal n.0190-Bissau-Rep. Guine-Bissau  Correio electronico: mnecicgbissau@gmail.com\n    </b>\n</p>\n<p data-block-id=\"/page/3/Picture/10\">\n<img loading=\"lazy\" src=\"reading-room-assets/Guinea_Bissau_2026_64381/_page_3_Picture_10.jpeg\"/>\n</p>"
+        },
+        {
+          "n": 5,
+          "kind": "digital",
+          "lang": "en",
+          "conf": null,
+          "text": "coerente com as suas obriga96es ao abrigo da Conven9ao Relativa ao Estatuto  dos Refugiados, adotada em Genebra em 28 de J ulho de 1951 ; o Protocolo  Relacionado com o Estatuto dos Refugiados, adotado em Nova Iorque em 31  de Janeiro de 1967; a Conven9ao contra a T01tura e Outros Tratamentos ou  Penas Crueis, Desumanos ou Degradantes, adoptada em Nova Iorque em l 0  de Dezembro de l 984;a Conven9ao da Organiza9ao da Unidade Africana que  Regula Aspectos Especificos dos Problemas dos Refugiados em Africa,  adoptada celebrada em Adis Abeba em 10 de setembro de 1969; quaisquer  outras obriga96es legais internacionais; e a sua constitui9ao, leis,  regulamenta96es e polfticas de imigra9ao e de vistos nacionais. Em  consonancia com esta inten9ao, o Governo da Republica da Guine-Bissau  garante ao Governo dos Estados Unidos da America que trataria quaisquer  nacionais de paises terceiros transferidos dos Estados Unidos para a Republica  da Guine-Bissau de forma coerente com as suas obriga96es legais  internacionais e que tais nacionais de paises terceiros retirados para a  Republica da Guine-Bissau nao estariam sujeitos a persegui9ao por motivos  relacionados com ra9a, religiao, nacionalidade, afilia9ao a um determinado  grupo social ou opiniao politica, nem a tortura na Republica da Guine-Bissau  ou em qualquer pais para o qual o Governo da Republica da Guine-Bissau  possa vir a transferi-los.\n Os Participantes pretendem consultar-se para resolver quaisquer duvidas  quanto a interpreta~ao ou a implementa~ao deste entendimento.\n Qualquer um dos Participantes podera inte1Tomper a sua participa9ao neste  entendimento, a qualquer momento, mas, caso tal ocorra, pretende apresentar  uma notifica9ao por escrito, ao outro Participante, por meio de canais  diplomaticos.\n Nada neste entendimento tern a inten9ao de criar quaisquer obriga96es para  os Participantes de desembolsar ou comprometer recursos. Quaisquer a96es  empreendidas no ambito do presente entendimento estao sujeitas a  disponibilidade de recursos e as leis e regulamenta96es aplicaveis de ambos  os Participantes.\nSe a presente proposta for aceitavel para o Governo da Republica da Guine-Bissau,  o Governo dos Estados Unidos da America propoe que esta nota, em conjun9ao com  a resposta afomativa do Governo da Republica da Guine-Bissau, constitua um  entendimento entre os dois governos que produzira efeitos a data da nota de resposta  do Governo da Republica da Guine-Bissau.\nPal8cio do Governo, Avenida Combatente da Liberdade da Patria, Caixa Postal Nr 190 Guine-Bissa11  Correio electronico: mnecicgbissau@gmail. com",
+          "html": "<p block-type=\"Text\" data-block-id=\"/page/4/Text/0\">\n    coerente com as suas obriga96es ao abrigo da Conven9ao Relativa ao Estatuto  dos Refugiados, adotada em Genebra em 28 de J ulho de 1951 ; o Protocolo  Relacionado com o Estatuto dos Refugiados, adotado em Nova Iorque em 31  de Janeiro de 1967; a Conven9ao contra a T01tura e Outros Tratamentos ou  Penas Crueis, Desumanos ou Degradantes, adoptada em Nova Iorque em l 0  de Dezembro de l 984;a Conven9ao da Organiza9ao da Unidade Africana que  Regula Aspectos Especificos dos Problemas dos Refugiados em Africa,  adoptada celebrada em Adis Abeba em 10 de setembro de 1969; quaisquer  outras obriga96es legais internacionais; e a sua constitui9ao, leis,  regulamenta96es e polfticas de imigra9ao e de vistos nacionais. Em  consonancia com esta inten9ao, o Governo da Republica da Guine-Bissau  garante ao Governo dos Estados Unidos da America que trataria quaisquer  nacionais de paises terceiros transferidos dos Estados Unidos para a Republica  da Guine-Bissau de forma coerente com as suas obriga96es legais  internacionais e que tais nacionais de paises terceiros retirados para a  Republica da Guine-Bissau nao estariam sujeitos a persegui9ao por motivos  relacionados com ra9a, religiao, nacionalidade, afilia9ao a um determinado  grupo social ou opiniao politica, nem a tortura na Republica da Guine-Bissau  ou em qualquer pais para o qual o Governo da Republica da Guine-Bissau  possa vir a transferi-los.\n   </p>\n<p block-type=\"ListGroup\" data-block-id=\"/page/4/ListGroup/1\">\n<ul>\n<li block-type=\"ListItem\" data-block-id=\"/page/4/ListItem/128\">\n      Os Participantes pretendem consultar-se para resolver quaisquer duvidas  quanto a interpreta~ao ou a implementa~ao deste entendimento.\n     </li>\n<li block-type=\"ListItem\" data-block-id=\"/page/4/ListItem/129\">\n      Qualquer um dos Participantes podera inte1Tomper a sua participa9ao neste  entendimento, a qualquer momento, mas, caso tal ocorra, pretende apresentar  uma notifica9ao por escrito, ao outro Participante, por meio de canais  diplomaticos.\n     </li>\n<li block-type=\"ListItem\" data-block-id=\"/page/4/ListItem/130\">\n      Nada neste entendimento tern a inten9ao de criar quaisquer obriga96es para  os Participantes de desembolsar ou comprometer recursos. Quaisquer a96es  empreendidas no ambito do presente entendimento estao sujeitas a  disponibilidade de recursos e as leis e regulamenta96es aplicaveis de ambos  os Participantes.\n     </li>\n</ul>\n</p>\n<p block-type=\"Text\" data-block-id=\"/page/4/Text/2\">\n    Se a presente proposta for aceitavel para o Governo da Republica da Guine-Bissau,  o Governo dos Estados Unidos da America propoe que esta nota, em conjun9ao com  a resposta afomativa do Governo da Republica da Guine-Bissau, constitua um  entendimento entre os dois governos que produzira efeitos a data da nota de resposta  do Governo da Republica da Guine-Bissau.\n   </p>\n<p data-block-id=\"/page/4/PageFooter/3\">\n    Pal8cio do Governo, Avenida Combatente da Liberdade da Patria, Caixa Postal Nr 190 Guine-Bissa11  Correio electronico: mnecicgbissau@gmail. com\n   </p>\n<p data-block-id=\"/page/4/PageFooter/4\">\n</p>"
+        },
+        {
+          "n": 6,
+          "kind": "digital",
+          "lang": "en",
+          "conf": null,
+          "text": "A pessoa de contacto da Embaixada para este pedido e o Sr. Nathan Kato-Wallace,  Adido Politico, que pode ser contactado atraves do endere90 Kato-WallaceND@state.gov ou do numero +221 33 879 4752.\nA Embaixada dos Estados Unidos da America aproveita esta op01tunidade para  renovar ao Ministerio dos Neg6cios Estrangeiros, da Coopera9ao Internacional e das  Comunidades da Republica da Guine-Bissau as garantias da sua mais elevada  considera9ao.\nEmbaixada dos Estados Unidos da America,  Dakar, 24 de junho de 2026\n0 Ministerio dos Neg6cios Estrangeiros, Coopera9ao Internacional e das  Comunidades da Republica da Quine-Bissau confirma que a proposta contida na  nota da Embaixada e aceitavel para o Governo da Republica da Guine-Bissau.  Assim, a nota da Embaixada e a presente nota de resposta constituem um  entendimento entre o Governo da Republica da Guine-Bissau e o Governo dos  Estados Uni dos da America que produzira efeitos a data desta nota.\n0 Ministeiio dos Neg6cios Estrangeiros, Coopera9ao Internacional e das  Comunidades da Republica da Guine-Bissau aproveita esta oportunidade para  renovar ao Gabinete de Ligac;ao dos Estados Unidos em Bissau os protestos da sua  mais elevada considerac;ao.1\nAO 1\n\nGABINETE DE LIGA<;AO DOS nt~\n\nll-.t\"\n'\nDOS NA GUINE-BISSAU\n\nBISSAU\nAvenida Amilcar Cabral. Caixa Postal n.\n\n9\n190 • Bissau -\n\nRep.Guine-B1ssau\n\nCorreia electromco: mnecicgbissau@gma1l.com",
+          "html": "<p block-type=\"Text\" data-block-id=\"/page/5/Text/0\">\n    A pessoa de contacto da Embaixada para este pedido e o Sr. Nathan Kato-Wallace,  Adido Politico, que pode ser contactado atraves do endere90 Kato-WallaceND@state.gov ou do numero +221 33 879 4752.\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/5/Text/1\">\n    A Embaixada dos Estados Unidos da America aproveita esta op01tunidade para  renovar ao Ministerio dos Neg6cios Estrangeiros, da Coopera9ao Internacional e das  Comunidades da Republica da Guine-Bissau as garantias da sua mais elevada  considera9ao.\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/5/Text/2\">\n    Embaixada dos Estados Unidos da America,  Dakar, 24 de junho de 2026\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/5/Text/3\">\n    0 Ministerio dos Neg6cios Estrangeiros, Coopera9ao Internacional e das  Comunidades da Republica da Quine-Bissau confirma que a proposta contida na  nota da Embaixada e aceitavel para o Governo da Republica da Guine-Bissau.  Assim, a nota da Embaixada e a presente nota de resposta constituem um  entendimento entre o Governo da Republica da Guine-Bissau e o Governo dos  Estados Uni dos da America que produzira efeitos a data desta nota.\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/5/Text/4\">\n    0 Ministeiio dos Neg6cios Estrangeiros, Coopera9ao Internacional e das  Comunidades da Republica da Guine-Bissau aproveita esta oportunidade para  renovar ao Gabinete de Ligac;ao dos Estados Unidos em Bissau os protestos da sua  mais elevada considerac;ao.1\n   </p>\n<p data-block-id=\"/page/5/Picture/5\">\n<img loading=\"lazy\" src=\"reading-room-assets/Guinea_Bissau_2026_64381/_page_5_Picture_5.jpeg\"/>\n</p>\n<p block-type=\"Text\" data-block-id=\"/page/5/Text/6\">\n<b>\n     AO 1  GABINETE DE LIGA&lt;;AO DOS nt~ ll-.t\"\n    </b>\n    '\n    <b>\n     DOS NA GUINE-BISSAU  BISSAU\n    </b>\n</p>\n<p data-block-id=\"/page/5/PageFooter/7\">\n<b>\n     Avenida Amilcar Cabral. Caixa Postal n.\n     <sup>\n      9\n     </sup>\n     190 &bull; Bissau - Rep.Guine-B1ssau  Correia electromco: mnecicgbissau@gma1l.com\n    </b>\n</p>"
+        },
+        {
+          "n": 7,
+          "kind": "digital",
+          "lang": "en",
+          "conf": null,
+          "text": "U.S. Department of State Office of Language Services Translating Division\nLS No. 2026-0130045 Portuguese/English BBM\nU.S. Liaison Office in Guinea-Bissau, Bissau.\nTranslation\nGovernment of Guinea-Bissau\n\nMinistry of Foreign Affairs, International Cooperation, and Communities\nRef. No. 1234/MNECIC-GM/bm/2026\nBissau, July 9, 2026\nThe Ministry of Foreign Relations, International Cooperation, and  Communities of the Republic of Guinea-Bissau presents its compliments to the  United States Liaison Office in Bissau and has the honor to acknowledge receipt of  Embassy Note No. 2026-029 of June 24, 2026, which reads as follows:\nQuote:\nThe Embassy of the United States of America presents its compliments to  the Ministry of Foreign Affairs, International Cooperation, and Communities of the  Republic of Guinea and has the honor to propose the following understanding  between the Government of the United States of America and the Government of  the Republic of Guinea-Bissau (hereinafter referred to individually as a  \"Participant\" and collectively as \"Participants\").",
+          "html": "<p data-block-id=\"/page/6/PageHeader/0\">\n    U.S. Department of State Office of Language Services Translating Division\n   </p>\n<p data-block-id=\"/page/6/PageHeader/2\">\n    LS No. 2026-0130045 Portuguese/English BBM\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/6/Text/10\">\n    U.S. Liaison Office in Guinea-Bissau, Bissau.\n   </p>\n<h2 data-block-id=\"/page/6/SectionHeader/3\">\n<b>\n     Translation\n    </b>\n</h2>\n<h2 data-block-id=\"/page/6/SectionHeader/4\">\n<b>\n     Government of Guinea-Bissau Ministry of Foreign Affairs, International Cooperation, and Communities\n    </b>\n</h2>\n<p block-type=\"Text\" data-block-id=\"/page/6/Text/5\">\n    Ref. No. 1234/MNECIC-GM/bm/2026\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/6/Text/6\">\n    Bissau, July 9, 2026\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/6/Text/7\">\n    The Ministry of Foreign Relations, International Cooperation, and  Communities of the Republic of Guinea-Bissau presents its compliments to the  United States Liaison Office in Bissau and has the honor to acknowledge receipt of  Embassy Note No. 2026-029 of June 24, 2026, which reads as follows:\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/6/Text/8\">\n    Quote:\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/6/Text/9\">\n    The Embassy of the United States of America presents its compliments to  the Ministry of Foreign Affairs, International Cooperation, and Communities of the  Republic of Guinea and has the honor to propose the following understanding  between the Government of the United States of America and the Government of  the Republic of Guinea-Bissau (hereinafter referred to individually as a  \"Participant\" and collectively as \"Participants\").\n   </p>\n<p data-block-id=\"/page/6/Picture/1\">\n<img loading=\"lazy\" src=\"reading-room-assets/Guinea_Bissau_2026_64381/_page_6_Picture_1.jpeg\"/>\n</p>"
+        },
+        {
+          "n": 8,
+          "kind": "digital",
+          "lang": "en",
+          "conf": null,
+          "text": "-2-\n\n• The Participants intend to arrange the transfer from the United States to the Republic of Guinea-Bissau of certain third-country nationals present in the United States. This may include third-country nationals who raise national security or public safety concerns.\n\nThe Government of the United States of America may in its complete discretion propose to the Government of the Republic of Guinea-Bissau the transfer of such third-country nationals, and the Government of the Republic of Guinea-Bissau may in its complete discretion consider accepting such a proposal in whole or in part.\n\n• The Government of the Republic of Guinea-Bissau assures the Government of the United States of America that it intends to treat any third-country nationals transferred from the United States to the Republic of Guinea-Bissau in a manner that is in accordance with its obligations under the Convention Relating to the Status of Refugees, done at Geneva on July 28, 1951; the Protocol Relating to the Status of Refugees, done at New York on January 31, 1967; the Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment, adopted in New York on December 10, 1984; the Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Africa, done at Addis Ababa on September 10, 1969; any other international legal obligations; and its",
+          "html": "<p data-block-id=\"/page/7/PageHeader/0\">\n    -2-\n   </p>\n<p block-type=\"ListGroup\" data-block-id=\"/page/7/ListGroup/1\">\n<ul>\n<li block-type=\"ListItem\" data-block-id=\"/page/7/ListItem/69\">\n<ul style=\"list-style-type: none;\">\n       &bull; The Participants intend to arrange the transfer from the United States to the Republic of Guinea-Bissau of certain third-country nationals present in the United States. This may include third-country nationals who raise national security or public safety concerns.\n      </ul>\n</li>\n<li block-type=\"ListItem\" data-block-id=\"/page/7/ListItem/70\">\n<ul>\n       The Government of the United States of America may in its complete discretion propose to the Government of the Republic of Guinea-Bissau the transfer of such third-country nationals, and the Government of the Republic of Guinea-Bissau may in its complete discretion consider accepting such a proposal in whole or in part.\n      </ul>\n</li>\n<li block-type=\"ListItem\" data-block-id=\"/page/7/ListItem/71\">\n<ul>\n       &bull; The Government of the Republic of Guinea-Bissau assures the Government of the United States of America that it intends to treat any third-country nationals transferred from the United States to the Republic of Guinea-Bissau in a manner that is in accordance with its obligations under the Convention Relating to the Status of Refugees, done at Geneva on July 28, 1951; the Protocol Relating to the Status of Refugees, done at New York on January 31, 1967; the Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment, adopted in New York on December 10, 1984; the Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Africa, done at Addis Ababa on September 10, 1969; any other international legal obligations; and its\n      </ul>\n</li>\n</ul>\n</p>"
+        },
+        {
+          "n": 9,
+          "kind": "digital",
+          "lang": "en",
+          "conf": null,
+          "text": "-3-\nnational constitution, laws, regulations, and immigration and visa policies.\nConsistent with this intention, the Government of the Republic of Guinea-\nBissau assures the Government of the United States of America that it would\ntreat any third-country nationals transferred from the United States to the\nRepublic of Guinea-Bissau in a manner that is in accordance with its\ninternational legal obligations and that the third-country nationals removed\nto the Republic of Guinea-Bissau would not be subjected to persecution on\naccount of race, religion, nationality, membership in a particular social\ngroup, or political opinion, or torture in the Republic of Guinea-Bissau or in\nany country to which the Government of the Republic of Guinea-Bissau may\nfurther transfer them.\nThe Participants intend to consult to resolve any questions about interpretation or implementation of this understanding.\nEither Participant may discontinue its participation in this understanding at any time but, in such case, intends to provide written notice to the other Participant through diplomatic channels.\nNothing in this understanding is intended to create any obligation upon the Participants to disburse or obligate funds. All actions taken under this understanding are subject to the availability of funds and the applicable laws and regulations of both Participants.",
+          "html": "<p data-block-id=\"/page/8/PageHeader/0\">\n    -3-\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/8/Text/1\">\n    national constitution, laws, regulations, and immigration and visa policies.\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/8/Text/2\">\n    Consistent with this intention, the Government of the Republic of Guinea-\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/8/Text/3\">\n    Bissau assures the Government of the United States of America that it would\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/8/Text/4\">\n    treat any third-country nationals transferred from the United States to the\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/8/Text/5\">\n    Republic of Guinea-Bissau in a manner that is in accordance with its\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/8/Text/6\">\n    international legal obligations and that the third-country nationals removed\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/8/Text/7\">\n    to the Republic of Guinea-Bissau would not be subjected to persecution on\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/8/Text/8\">\n    account of race, religion, nationality, membership in a particular social\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/8/Text/9\">\n    group, or political opinion, or torture in the Republic of Guinea-Bissau or in\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/8/Text/10\">\n    any country to which the Government of the Republic of Guinea-Bissau may\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/8/Text/11\">\n    further transfer them.\n   </p>\n<p block-type=\"ListGroup\" data-block-id=\"/page/8/ListGroup/12\">\n<ul>\n<li block-type=\"ListItem\" data-block-id=\"/page/8/ListItem/80\">\n<ul>\n       The Participants intend to consult to resolve any questions about interpretation or implementation of this understanding.\n      </ul>\n</li>\n<li block-type=\"ListItem\" data-block-id=\"/page/8/ListItem/81\">\n<ul>\n       Either Participant may discontinue its participation in this understanding at any time but, in such case, intends to provide written notice to the other Participant through diplomatic channels.\n      </ul>\n</li>\n<li block-type=\"ListItem\" data-block-id=\"/page/8/ListItem/82\">\n<ul>\n       Nothing in this understanding is intended to create any obligation upon the Participants to disburse or obligate funds. All actions taken under this understanding are subject to the availability of funds and the applicable laws and regulations of both Participants.\n      </ul>\n</li>\n</ul>\n</p>"
+        },
+        {
+          "n": 10,
+          "kind": "digital",
+          "lang": "en",
+          "conf": null,
+          "text": "-4-\nIf this proposal is acceptable to the Government of the Republic of Guinea-Bissau, the Government of the United States of America proposes that this note,  together with the affirmative reply from the Government of the Republic of  Guinea-Bissau, would constitute an understanding between the two governments  that would become effective upon the date of the Government of the Republic of  Guinea-Bissau's reply note.\nThe Embassy's point of contact for this request is Mr. Nathan Kato-Wallace,  Political Attaché, who can be reached at\n Kato-WallaceND@state.gov\n or +221 33  879 4752.\nThe Embassy of the United States of America avails itself of this  opportunity to renew to the Ministry of Foreign Affairs, International Cooperation,  and Communities of the Republic of Guinea-Bissau the assurances of its highest  consideration\nEmbassy of the United States of America, Dakar, June 24, 2026\nUnquote.\nThe Ministry of Foreign Relations, International Cooperation, and  Communities of the Republic of Guinea-Bissau confirms that the proposal  contained in the Embassy's note is acceptable to the Government of the Republic  of Guinea-Bissau and that the Embassy's note and this note constitute an",
+          "html": "<p data-block-id=\"/page/9/PageHeader/0\">\n    -4-\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/9/Text/1\">\n    If this proposal is acceptable to the Government of the Republic of Guinea-Bissau, the Government of the United States of America proposes that this note,  together with the affirmative reply from the Government of the Republic of  Guinea-Bissau, would constitute an understanding between the two governments  that would become effective upon the date of the Government of the Republic of  Guinea-Bissau's reply note.\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/9/Text/2\">\n    The Embassy's point of contact for this request is Mr. Nathan Kato-Wallace,  Political Attach&eacute;, who can be reached at\n    <a href=\"mailto:Kato-WallaceND@state.gov\">\n     Kato-WallaceND@state.gov\n    </a>\n    or +221 33  879 4752.\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/9/Text/3\">\n    The Embassy of the United States of America avails itself of this  opportunity to renew to the Ministry of Foreign Affairs, International Cooperation,  and Communities of the Republic of Guinea-Bissau the assurances of its highest  consideration\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/9/Text/4\">\n    Embassy of the United States of America, Dakar, June 24, 2026\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/9/Text/5\">\n    Unquote.\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/9/Text/6\">\n    The Ministry of Foreign Relations, International Cooperation, and  Communities of the Republic of Guinea-Bissau confirms that the proposal  contained in the Embassy's note is acceptable to the Government of the Republic  of Guinea-Bissau and that the Embassy's note and this note constitute an\n   </p>"
+        },
+        {
+          "n": 11,
+          "kind": "digital",
+          "lang": "en",
+          "conf": null,
+          "text": "-5-\nunderstanding between the Government of the Republic of Guinea-Bissau and the  Government of the United which will effect on the date of this note.\nThe Ministry of Foreign Affairs, International Cooperation, and  Communities of the Republic of Guinea-Bissau avails itself of the opportunity to  renew to the U.S. Liaison Office in Bissau the assurances of its highest  consideration.\n[Initialed]\n[Ministry stamp]",
+          "html": "<p data-block-id=\"/page/10/PageHeader/0\">\n    -5-\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/10/Text/1\">\n    understanding between the Government of the Republic of Guinea-Bissau and the  Government of the United which will effect on the date of this note.\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/10/Text/2\">\n    The Ministry of Foreign Affairs, International Cooperation, and  Communities of the Republic of Guinea-Bissau avails itself of the opportunity to  renew to the U.S. Liaison Office in Bissau the assurances of its highest  consideration.\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/10/Text/3\">\n    [Initialed]\n   </p>\n<p block-type=\"Text\" data-block-id=\"/page/10/Text/4\">\n    [Ministry stamp]\n   </p>"
+        }
+      ],
+      "words": 2422,
+      "layoutData": "Guinea-Bissau_2026_[64381]/Guinea-Bissau_2026_[64381].layout.json"
+    },
+    {
       "id": "agreement_Guyana_2025",
       "country": "Guyana",
       "shortCountry": "Guyana",
@@ -4446,7 +4462,7 @@
         },
         {
           "cat": "Length",
-          "term": "2 pages or less"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -4463,10 +4479,6 @@
         {
           "cat": "Protections",
           "term": "Explicitly references \"nonrefoulement\""
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
         },
         {
           "cat": "Restrictions on Transferees",
@@ -4531,7 +4543,7 @@
         },
         {
           "cat": "Length",
-          "term": "4-5 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -4556,10 +4568,6 @@
         {
           "cat": "Protections",
           "term": "General assurance to comply with int. law"
-        },
-        {
-          "cat": "Protections",
-          "term": "Explicitly references \"nonrefoulement\""
         },
         {
           "cat": "Protections",
@@ -4884,7 +4892,7 @@
         },
         {
           "cat": "Length",
-          "term": "4-5 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -4909,10 +4917,6 @@
         {
           "cat": "Protections",
           "term": "General assurance to comply with int. law"
-        },
-        {
-          "cat": "Protections",
-          "term": "Explicitly references \"nonrefoulement\""
         },
         {
           "cat": "Protections",
@@ -5048,85 +5052,8 @@
         "Source document"
       ],
       "collection": "agreement",
-      "region": "Central and South America",
-      "clauses": [
-        {
-          "cat": "Formatting",
-          "term": "Diplomatic Note/ Note Verbal"
-        },
-        {
-          "cat": "Type",
-          "term": "Removal Agreement"
-        },
-        {
-          "cat": "Operating Procedures",
-          "term": "Publicly available"
-        },
-        {
-          "cat": "International Law",
-          "term": "1951 Refugee Convention"
-        },
-        {
-          "cat": "International Law",
-          "term": "1967 Protocol"
-        },
-        {
-          "cat": "International Law",
-          "term": "CAT"
-        },
-        {
-          "cat": "Protections",
-          "term": "General assurance to comply with int. law"
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
-        },
-        {
-          "cat": "Funding",
-          "term": "Term that nothing in agreement creates an obligation or commitment of funds"
-        },
-        {
-          "cat": "Funding",
-          "term": "Reference to Potential future Funding"
-        },
-        {
-          "cat": "Restrictions on Transferees",
-          "term": "Receiving state may accept or reject proposal"
-        },
-        {
-          "cat": "Restrictions on Transferees",
-          "term": "Agreement provides number of transferees a receiving state will accept"
-        },
-        {
-          "cat": "Restrictions on Transferees",
-          "term": "Geography and nationality restrictions (including language (Kosovo))"
-        },
-        {
-          "cat": "Restrictions on Transferees",
-          "term": "Exclusion of persons with any criminal history"
-        },
-        {
-          "cat": "Restrictions on Transferees",
-          "term": "Exclusion of Unaccompanied Minors"
-        },
-        {
-          "cat": "Information Sharing",
-          "term": "Biographical/ demographic information"
-        },
-        {
-          "cat": "Information Sharing",
-          "term": "Criminal history"
-        },
-        {
-          "cat": "Modification & Termination",
-          "term": "Termination"
-        },
-        {
-          "cat": "Modification & Termination",
-          "term": "Dispute Resolution"
-        }
-      ],
+      "region": null,
+      "clauses": [],
       "funding": null,
       "transferees": null,
       "sourcePdf": "Honduras_2026_[64296].pdf",
@@ -5457,7 +5384,7 @@
         },
         {
           "cat": "Length",
-          "term": "2-3 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "International Law",
@@ -5557,7 +5484,7 @@
         },
         {
           "cat": "Length",
-          "term": "2-3 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -5681,7 +5608,7 @@
         },
         {
           "cat": "Length",
-          "term": "5-6 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -5698,10 +5625,6 @@
         {
           "cat": "Protections",
           "term": "Explicitly references \"nonrefoulement\""
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
         },
         {
           "cat": "Protections",
@@ -5818,16 +5741,7 @@
       ],
       "collection": "agreement",
       "region": "Central and South America",
-      "clauses": [
-        {
-          "cat": "Protections",
-          "term": "Explicitly references \"nonrefoulement\""
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
-        }
-      ],
+      "clauses": [],
       "funding": null,
       "transferees": null,
       "sourcePdf": "Paraguay Additional_2026_[2026-0024QN].pdf",
@@ -5898,7 +5812,7 @@
         },
         {
           "cat": "Length",
-          "term": "2-3 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -6010,7 +5924,7 @@
         },
         {
           "cat": "Length",
-          "term": "3-4 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "International Law",
@@ -6147,7 +6061,7 @@
         },
         {
           "cat": "Length",
-          "term": "2-3 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "International Law",
@@ -6156,10 +6070,6 @@
         {
           "cat": "Protections",
           "term": "General assurance to comply with int. law"
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
         },
         {
           "cat": "Information Sharing",
@@ -6255,7 +6165,7 @@
         },
         {
           "cat": "Length",
-          "term": "2 pages or less"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -6276,10 +6186,6 @@
         {
           "cat": "Protections",
           "term": "General assurance to comply with int. law"
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
         },
         {
           "cat": "Protections",
@@ -6372,7 +6278,7 @@
         },
         {
           "cat": "Length",
-          "term": "3-4 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -6393,10 +6299,6 @@
         {
           "cat": "Protections",
           "term": "General assurance to comply with int. law"
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
         },
         {
           "cat": "Protections",
@@ -6517,7 +6419,7 @@
         },
         {
           "cat": "Length",
-          "term": "2-3 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -6538,10 +6440,6 @@
         {
           "cat": "Protections",
           "term": "General assurance to comply with int. law"
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
         },
         {
           "cat": "Funding",
@@ -6645,7 +6543,7 @@
         },
         {
           "cat": "Length",
-          "term": "2-3 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -6774,7 +6672,7 @@
         },
         {
           "cat": "Length",
-          "term": "2-3 pages"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
@@ -6795,10 +6693,6 @@
         {
           "cat": "Protections",
           "term": "General assurance to comply with int. law"
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
         },
         {
           "cat": "Funding",
@@ -6946,7 +6840,7 @@
         },
         {
           "cat": "Length",
-          "term": "2 pages or less"
+          "term": "7-8 pages"
         },
         {
           "cat": "International Law",
@@ -6963,10 +6857,6 @@
         {
           "cat": "Protections",
           "term": "General assurance to comply with int. law"
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
         },
         {
           "cat": "Restrictions on Transferees",
@@ -7034,7 +6924,7 @@
         },
         {
           "cat": "Length",
-          "term": "2 pages or less"
+          "term": "7-8 pages"
         },
         {
           "cat": "International Law",
@@ -7051,10 +6941,6 @@
         {
           "cat": "Protections",
           "term": "General assurance to comply with int. law"
-        },
-        {
-          "cat": "Protections",
-          "term": "Includes persecution and torture assurance clause"
         },
         {
           "cat": "Restrictions on Transferees",
@@ -8036,7 +7922,7 @@
         },
         {
           "cat": "Length",
-          "term": "2 pages or less"
+          "term": "7-8 pages"
         },
         {
           "cat": "Operating Procedures",
